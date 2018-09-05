@@ -72,7 +72,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-              <button type="button" class="btn add-place" onclick="window.location.href='place/add'">
+              <button type="button" class="btn add-place" onclick="window.location.href='places/add'">
                 <div class="img-circle">
                   <i class="fa fa-plus"></i>
                 </div>

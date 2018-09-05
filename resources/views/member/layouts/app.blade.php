@@ -180,7 +180,7 @@
                         <li class="nav-label">Features</li>
                         <!-- <li> <a class="" href="{{url('member/cars')}}" aria-expanded="false"><i class="fa fa-car"></i><span class="hide-menu">Cars </span></a>
                         <li> <a class="" href="{{url('member/orders')}}" aria-expanded="false"><i class="fa fa-list-alt"></i><span class="hide-menu">Orders </span></a> -->
-                        <li> <a class="" href="{{url('member/place')}}" aria-expanded="false"><i class="fa fa-map-marker"></i><span class="hide-menu">Place </span></a>
+                        <li> <a class="" href="{{url('member/places')}}" aria-expanded="false"><i class="fa fa-map-marker"></i><span class="hide-menu">Places </span></a>
                         <li> <a class="" href="{{url('member/balance')}}" aria-expanded="false"><i class="ti-wallet"></i><span class="hide-menu">Balance </span></a>
                         <li> <a class="" href="{{url('member/inbox')}}" aria-expanded="false"><i class="ti-email"></i><span class="hide-menu">Inbox </span></a>
                         <li> <a class="" href="#" aria-expanded="false"><i class="fa fa-user"></i><span class="hide-menu">Profile </span></a>

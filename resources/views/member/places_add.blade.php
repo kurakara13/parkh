@@ -152,7 +152,8 @@
                       $("#mapErrorMsg").hide(100);
                       $('#lat').val(results[0].geometry.location.lat());
                       $('#lng').val(results[0].geometry.location.lng());
-                      console.log(results[0]);
+                      console.log($('#lat').val());
+                      console.log($('#lng').val());
                   }
                   else
                   {
@@ -214,6 +215,8 @@
             }
             $('#lat').val(places[0].geometry.location.lat());
             $('#lng').val(places[0].geometry.location.lng());
+            console.log($('#lat').val());
+            console.log($('#lng').val());
         });
         map.fitBounds(bounds);
       });
@@ -226,7 +229,7 @@
 </script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTvhdTFGBTz7D11w9MTFWgedU0C_wXCIQ&libraries=places&callback=initAutocomplete"
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAa5j5PXOoThi9oSiADE6wzQLNbstY3Q-g&libraries=places&callback=initAutocomplete"
      async defer></script>
      <script>
 $(function() {

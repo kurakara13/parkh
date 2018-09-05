@@ -51,17 +51,17 @@ class MemberController extends Controller
         return view('member.orders');
     }
 
-    public function place()
+    public function places()
     {
-        return view('member.place');
+        return view('member.places');
     }
 
-    public function place_add()
+    public function places_add()
     {
-        return view('member.place_add');
+        return view('member.places_add');
     }
 
-    public function place_add_action(Request $request)
+    public function places_add_action(Request $request)
     {
         dd($request);
         return redirect('admin/places/add');

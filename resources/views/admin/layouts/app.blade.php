@@ -160,7 +160,7 @@
                         <li class="nav-label">Features</li>
                         <li> <a class="" href="{{url('admin/cars')}}" aria-expanded="false"><i class="fa fa-car"></i><span class="hide-menu">Cars-list </span></a>
                         <li> <a class="" href="{{url('admin/orders')}}" aria-expanded="false"><i class="fa fa-list-alt"></i><span class="hide-menu">Orders-list </span></a>
-                        <li> <a class="" href="{{url('admin/places')}}" aria-expanded="false"><i class="fa fa-map-marker"></i><span class="hide-menu">Place-list </span></a>
+                        <li> <a class="" href="{{url('admin/places')}}" aria-expanded="false"><i class="fa fa-map-marker"></i><span class="hide-menu">Places-list </span></a>
                         <li> <a class="" href="#" aria-expanded="false"><i class="fa fa-map-marker"></i><span class="hide-menu">Payments </span></a>
                         <li> <a class="" href="#" aria-expanded="false"><i class="fa fa-user"></i><span class="hide-menu">Users </span></a>
                     </ul>
