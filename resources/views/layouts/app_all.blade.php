@@ -28,7 +28,7 @@
 	@yield('css')
 
 	<!-- Custom stlylesheet -->
-	<link type="text/css" rel="stylesheet" href="{{asset('assets/css/style.css')}}" />
+	<link type="text/css" rel="stylesheet" href="{{asset('assets/css/style.css?v=1')}}" />
 
 	@yield('style')
 
@@ -95,6 +95,8 @@
 	<script type="text/javascript" src="{{asset('assets/js/owl.carousel.min.js')}}"></script>
 	<script type="text/javascript" src="{{asset('assets/js/jquery.magnific-popup.js')}}"></script>
 	<script type="text/javascript" src="{{asset('assets/js/main.js?v=1')}}"></script>
+
+	@yield('script')
 
 </body>
 

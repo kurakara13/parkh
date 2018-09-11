@@ -373,7 +373,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         -webkit-transition: 0.2s transform;
         transition: 0.2s transform;
     }
-    .dropdown {
+    /* .dropdown {
         position: absolute;
         right: -50%;
         top: 0;
@@ -388,8 +388,8 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         visibility: hidden;
         -webkit-transition: 0.2s all;
         transition: 0.2s all;
-    }
-    .main-nav>.has-dropdown>.dropdown {
+    } */
+    /* .main-nav>.has-dropdown>.dropdown {
         top: 100%;
         right: 50%;
     }
@@ -411,7 +411,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         -webkit-transform: translateY(0px) translateX(50%);
         -ms-transform: translateY(0px) translateX(50%);
         transform: translateY(0px) translateX(50%);
-    }
+    } */
     .has-dropdown:hover>a:before {
         -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
