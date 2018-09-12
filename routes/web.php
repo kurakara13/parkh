@@ -48,3 +48,9 @@ Route::prefix('member')->group(function() {
     Route::get('/places/add', 'MemberController@places_add')->name('places_add');
     Route::post('/places/add', 'MemberController@places_add_action')->name('places_add_action');
   });
+
+
+Route::group(['prefix' => 'api',  'middleware' => 'api.token'], function()  {
+    Route::get('place/list', 'ApiAccessController@places_list')->name('api.place.list');
+    Route::get('cars/list', 'ApiAccessController@cars_list')->name('api.cars.list');
+  });

@@ -3,9 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Requests;
+use App\ApiHelper;
+use App\Cars;
 
 class HomeController extends Controller
 {
+
     /**
      * Create a new controller instance.
      *
@@ -23,11 +27,17 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $apidata = ApiHelper::call_api('http://localhost/startup/parkhere/public/api/place/list');
+
         return view('index');
     }
 
     public function parking()
     {
+        $api = ApiHelper::call_api('http://localhost/startup/parkhere/public/api/cars/list');
+        $apidata = array('attributes' => json_decode($api));
+        $test = Cars::get();
+
         return view('parking');
     }
 }
